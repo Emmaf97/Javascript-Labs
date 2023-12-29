@@ -1,7 +1,4 @@
-//drawdots programme lecture slides
-const Dot_Size = 6;
-const GWINDOW_WIDTH = 500;
-const GWINDOW_HEIGHT = 300;
+
 
 //Greet function
 function testFunction1() {
@@ -194,3 +191,4 @@ function lineDrawClick() {
         gw.add(oval);
     }
 }
+
