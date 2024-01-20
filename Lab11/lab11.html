@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation Lab</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    #container {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	padding: 10px;
+  }
+  
+  .box {
+	border: 1px solid black;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  .active {
+	background-color: yellow;
+  }
+  
+  </style>
+</head>
+<body>
+  <h1>DOM Manipulation Lab</h1>
+  <div id="container">
+    <p>No boxes yet</p>
+  </div>
+  <div id="buttons">
+    <button type="button" id="btn-add-box">Add Box</button>
+    <button type="button" id="btn-remove-box">Remove Box</button>
+    <button type="button" id="btn-toggle-active">Toggle Active</button>
+    <button type="button" id="btn-reset">Reset</button>
+  </div>
+  <script src="lab11.js"></script>
+  //window.onload = init
+</body>
+</html>
