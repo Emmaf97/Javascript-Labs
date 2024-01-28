@@ -1,0 +1,16 @@
+/* 1. Customize the CSS styles in the `<style>` section of the HTML file to enhance the */
+/* visual appearance of the form and messages. */
+
+.error{
+    border: 1px solid red;
+    /* color:white;
+    background-color: pink; */
+}
+
+.success{
+    border: 1px solid greenyellow;
+    /* color:white;
+    background-color: greenyellow; */
+}
+/* 2. Expand the form by adding more input fields (e.g., phone number, address) and */
+/* implement validation rules for those fields. */
